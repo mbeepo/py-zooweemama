@@ -1,5 +1,5 @@
 import sys
-i = input(f"""{sys.version} on {sys.platform}
+i = input(f"""Python {sys.version} on {sys.platform}
 Type "help", "copyright", "credits" or "license" for more information.
 >>> """)
           
