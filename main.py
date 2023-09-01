@@ -1,4 +1,5 @@
-i = input("""Python 4.11.1 (tags/v3.11.1:a7a450f, Dec  6 2024, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
+import sys
+i = input(f"""Python {sys.version} on {sys.platform}
 Type "help", "copyright", "credits" or "license" for more information.
 >>> """)
           
